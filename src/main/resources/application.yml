@@ -4,7 +4,11 @@ spring:
     username: sa
     password:
     driver-class-name: org.h2.Driver
-
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
 
   jpa:
     hibernate:
