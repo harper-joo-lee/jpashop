@@ -7,8 +7,8 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
 // @Table(name= "user") -> 이렇게 구현을 안하면 엔티티의 필드명을 그대로 테이블 명으로 사용
+@Entity
 @Getter @Setter
 public class Member {
 
